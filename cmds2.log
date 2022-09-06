@@ -1,0 +1,121 @@
+    1  passwd
+    2  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    3  history > cmds.log
+    4  history
+    5  cmds.log
+    6  cd ~/Desktop
+    7  ls
+    8  mkdir ws1
+    9  ls
+   10  cd ws1
+   11  git init
+   12  cd
+   13  ls
+   14  sudo dnf install git-all
+   15  cd ws1
+   16  ls
+   17  history
+   18  ls
+   19  cd
+   20  ls
+   21  mv cmds.log ~/ws1/cmds.log
+   22  ls
+   23  cd ws1
+   24  ls
+   25  git status
+   26  touch cmds.log
+   27  ls
+   28  git status
+   29  git add cmds.log
+   30  git status
+   31  git commit -m "This is my first commit"
+   32  git config --global user.email "shota.jpn.12@gmail.com"
+   33  git commit -m "This is my first commit"
+   34  cd
+   35  ls
+   36  wget www.github.com
+   37  cd ws1
+   38  git remote add origin https://github.com/ShotaDT/ws1.git
+   39  git branch -M main
+   40  git -u origin main
+   41  git add cmds.log
+   42  git status
+   43  git commit -m "This is my first commit"
+   44  git config --global user.name "ShotaDT"
+   45  git@github.com:ShotaDT/ws1.git
+   46  git remote add origin git@github.com:ShotaDT/ws1.git
+   47  touch cmds.log
+   48  git status
+   49  git add cmds.log
+   50  git push -u origin master
+   51  cd
+   52  git clone https://github.com/ShotaDT/ws1.git
+   53  cd ws1
+   54  ls
+   55  mv ~/cmds.log ~/
+   56  mv ~/cmds.log ~/shota
+   57  mv ~/cmds.log ~/shota/cmds.log
+   58  mv ~/shota/ws1/cmds.log ~/shota/cmds.log
+   59  ls
+   60  cd
+   61  ls
+   62  mv ~/shota/ws1/cmds.log ~/shota/cmds.log
+   63  mv ~/ws1/cmds.log ~/shota/cmds.log
+   64  mv ~/ws1/cmds.log ~/cmds.log
+   65  ls
+   66  rm ws1
+   67  rmdir ws1
+   68  rm -r ws1
+   69  rm -rf ws1
+   70  ls
+   71  git clone https://github.com/ShotaDT/ws1.repo
+   72  ls
+   73  history
+   74  ls
+   75  git clone git@github.com:ShotaDT/ws1.git
+   76  ls
+   77  echo "# ws1" >> README.md
+   78  git init
+   79  git add README.md
+   80  git commit -m "first commit"
+   81  git branch -M main
+   82  git remote add origin git@github.com:ShotaDT/ws1.git
+   83  git push -u origin main
+   84  ls
+   85  rm README.md
+   86  ls
+   87  rm index.html
+   88  ls
+   89  git remote add origin git@github.com:ShotaDT/ws1.git
+   90  mkdir ws1
+   91  ls
+   92  cd ws1
+   93  git init
+   94  git add README.md
+   95  git commit -m "first commit"
+   96  cp ~/cmds.log ~/ws1
+   97  ls
+   98  git add cmds.log
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin git@github.com:ShotaDT/ws1.git
+  102  git push -u origin main
+  103  cd
+  104  git clone https://github.com/ShotaDT/ws1.git
+  105  ls
+  106  rm -rf ws1
+  107  ls
+  108  git clone https://github.com/ShotaDT/ws1.git
+  109  ls
+  110  cd ws1
+  111  git init
+  112  cp ~/cmds.log ~/ws1
+  113  git add
+  114  git add cmds.log
+  115  git status
+  116  git commit -m "first commit. cmds.log"
+  117  git push -u origin main
+  118  cd
+  119  ls
+  120  history
+  121  history > cmds.log

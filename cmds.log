@@ -1,0 +1,196 @@
+    1  passwd
+    2  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    3  history > cmds.log
+    4  history
+    5  cmds.log
+    6  cd ~/Desktop
+    7  ls
+    8  mkdir ws1
+    9  ls
+   10  cd ws1
+   11  git init
+   12  cd
+   13  ls
+   14  sudo dnf install git-all
+   15  cd ws1
+   16  ls
+   17  history
+   18  ls
+   19  cd
+   20  ls
+   21  mv cmds.log ~/ws1/cmds.log
+   22  ls
+   23  cd ws1
+   24  ls
+   25  git status
+   26  touch cmds.log
+   27  ls
+   28  git status
+   29  git add cmds.log
+   30  git status
+   31  git commit -m "This is my first commit"
+   32  git config --global user.email "shota.jpn.12@gmail.com"
+   33  git commit -m "This is my first commit"
+   34  cd
+   35  ls
+   36  wget www.github.com
+   37  cd ws1
+   38  git remote add origin https://github.com/ShotaDT/ws1.git
+   39  git branch -M main
+   40  git -u origin main
+   41  git add cmds.log
+   42  git status
+   43  git commit -m "This is my first commit"
+   44  git config --global user.name "ShotaDT"
+   45  git@github.com:ShotaDT/ws1.git
+   46  git remote add origin git@github.com:ShotaDT/ws1.git
+   47  touch cmds.log
+   48  git status
+   49  git add cmds.log
+   50  git push -u origin master
+   51  cd
+   52  git clone https://github.com/ShotaDT/ws1.git
+   53  cd ws1
+   54  ls
+   55  mv ~/cmds.log ~/
+   56  mv ~/cmds.log ~/shota
+   57  mv ~/cmds.log ~/shota/cmds.log
+   58  mv ~/shota/ws1/cmds.log ~/shota/cmds.log
+   59  ls
+   60  cd
+   61  ls
+   62  mv ~/shota/ws1/cmds.log ~/shota/cmds.log
+   63  mv ~/ws1/cmds.log ~/shota/cmds.log
+   64  mv ~/ws1/cmds.log ~/cmds.log
+   65  ls
+   66  rm ws1
+   67  rmdir ws1
+   68  rm -r ws1
+   69  rm -rf ws1
+   70  ls
+   71  git clone https://github.com/ShotaDT/ws1.repo
+   72  ls
+   73  history
+   74  ls
+   75  git clone git@github.com:ShotaDT/ws1.git
+   76  ls
+   77  echo "# ws1" >> README.md
+   78  git init
+   79  git add README.md
+   80  git commit -m "first commit"
+   81  git branch -M main
+   82  git remote add origin git@github.com:ShotaDT/ws1.git
+   83  git push -u origin main
+   84  ls
+   85  rm README.md
+   86  ls
+   87  rm index.html
+   88  ls
+   89  git remote add origin git@github.com:ShotaDT/ws1.git
+   90  mkdir ws1
+   91  ls
+   92  cd ws1
+   93  git init
+   94  git add README.md
+   95  git commit -m "first commit"
+   96  cp ~/cmds.log ~/ws1
+   97  ls
+   98  git add cmds.log
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin git@github.com:ShotaDT/ws1.git
+  102  git push -u origin main
+  103  cd
+  104  git clone https://github.com/ShotaDT/ws1.git
+  105  ls
+  106  rm -rf ws1
+  107  ls
+  108  git clone https://github.com/ShotaDT/ws1.git
+  109  ls
+  110  cd ws1
+  111  git init
+  112  cp ~/cmds.log ~/ws1
+  113  git add
+  114  git add cmds.log
+  115  git status
+  116  git commit -m "first commit. cmds.log"
+  117  git push -u origin main
+  118  cd
+  119  ls
+  120  history
+  121  history > cmds.log
+  122  ls
+  123  cd cmds.log
+  124  cd ws1
+  125  ls
+  126  cp ~/cmds.log ~/ws1/cmds2.log
+  127  ls
+  128  git add cmds2.log
+  129  git status
+  130  git commit -m "second commit. cmds2.log"
+  131  git push -u origin main
+  132  exit
+  133  ls
+  134  pwd
+  135  exit
+  136  ls
+  137  unzip amazon_reviews_us_Books_v1_02.tsv.gz
+  138  ls
+  139  tar -xvf amazon_reviews_us_Books_v1_02.tsv.gz
+  140  gzip amazon_reviews_us_Books_v1_02.tsv.gz
+  141  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  142  ls
+  143  grep verified amazon_reviews_us_Books_v1_02.tsv
+  144  grep unverified amazon_reviews_us_Books_v1_02.tsv
+  145  grep -l verified amazon_reviews_us_Books_v1_02.tsv.gz
+  146  grep -l verified amazon_reviews_us_Books_v1_02.tsv
+  147  grep verified amazon_reviews_us_Books_v1_02.tsv | wc
+  148  grep unverified amazon_reviews_us_Books_v1_02.tsv | wc
+  149  grep unverified amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  150  ls
+  151  grep verified amazon_reviews_us_Books_v1_02.tsv | wc
+  152  grep verified amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  153  vi counts.txt
+  154  cat counts.txt
+  155  history > cmds.log
+  156  ls
+  157  cat cmds.log
+  158  mkdir ws2
+  159  ls
+  160  mv cmds.log ws2
+  161  ls
+  162  mv counts.txt ws2
+  163  ls
+  164  cd ws2
+  165  ls
+  166  git remote add origin git@github.com:ShotaDT/ws2.git
+  167  git push -u origin main
+  168  git add counts.txt
+  169  git add chmd.log
+  170  git add cmds.log
+  171  git status
+  172  git commit -m "ws2 files"
+  173  git push -u origin main
+  174  git init
+  175  ls
+  176  git clone https://github.com/ShotaDT/ws1.git
+  177  ls
+  178  mv cmds.log shota
+  179  mv counts.txt
+  180  mv counts.txt shota
+  181  cd ..
+  182  ls
+  183  cd shota
+  184  cd ws2
+  185  ls
+  186  cd shota
+  187  cat shota
+  188  cd..
+  189  cd ..
+  190  ls
+  191  rm -rf ws1
+  192  rm -rf ws2
+  193  ls
+  194  hitstory > cmds.log
+  195  history > cmds.log
+# ws2

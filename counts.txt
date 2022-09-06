@@ -1,0 +1,2 @@
+verified  lines:  1439 words: 588538 bytes: 3575738
+unverified     lines:99  words: 43387 bytes: 266079
